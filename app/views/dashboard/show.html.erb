@@ -1,0 +1,57 @@
+<h1 class="title">Admin Dashboard</h1>
+
+<div class="columns">
+  <div class="column is-narrow">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Metric</th>
+          <th>Count</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Participants</td>
+          <td><%= @num_participants %></td>
+          <td><%= link_to "Download", dashboard_participants_path, class: 'button is-small' %></td>
+        </tr>
+        <tr>
+          <td>Readings</td>
+          <td><%= @num_readings %></td>
+          <td><%= link_to "Download", dashboard_readings_path, class: 'button is-small' %></td>
+        </tr>
+        <tr>
+          <td>Activites</td>
+          <td><%= @num_activities %></td>
+          <td><%= link_to "Download", dashboard_activities_path, class: 'button is-small' %></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="column is-narrow">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Configurations</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>NUM_READINGS</td>
+          <td><%= ENV.fetch('NUM_READINGS') { 1 } %></td>
+        </tr>
+        <tr>
+          <td>RANDOMIZED</td>
+          <td><%= ENV.fetch('RANDOMIZED_READINGS') { 'enabled' } %></td>
+        </tr>
+        <tr>
+          <td>HIGHLIGHTS</td>
+          <td><%= ENV.fetch('HIGHLIGHTS') { 'enabled' } %></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

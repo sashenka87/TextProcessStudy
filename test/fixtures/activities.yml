@@ -1,0 +1,20 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  participant: one
+  text_id: 1
+  order: 1
+  action_string: MyString
+  action_type: MyString
+  time_since_page_load: 1
+  time_since_tooltip_open: 1
+  comment: MyString
+
+two:
+  participant: one
+  text_id: 1
+  order: 1
+  action_string: MyString
+  action_type: MyString
+  time_since_page_load: 1
+  time_since_tooltip_open: 1

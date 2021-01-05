@@ -1,0 +1,41 @@
+<h1 class="title">Activity</h1>
+
+<p>
+  <strong>Participant:</strong>
+  <%= @activity.participant_id %>
+</p>
+<p>
+  <strong>Text:</strong>
+  <%= @activity.text_id %>
+</p>
+<p>
+  <strong>Order:</strong>
+  <%= @activity.order %>
+</p>
+<p>
+  <strong>Action string:</strong>
+  <%= @activity.action_string %>
+</p>
+<p>
+  <strong>Action type:</strong>
+  <%= @activity.action_type %>
+</p>
+<p>
+  <strong>Time since page load:</strong>
+  <%= @activity.time_since_page_load %>
+</p>
+<p>
+  <strong>Time since tooltip open:</strong>
+  <%= @activity.time_since_tooltip_open %>
+</p>
+<p>
+  <strong>Comment:</strong>
+  <%= @activity.comment %>
+</p>
+
+<br>
+<div class="buttons">
+  <%= link_to 'Back', activities_path, class: "button" %>
+  <%= link_to 'Edit', edit_activity_path(@activity), class: "button" %>
+  <%= link_to 'Destroy', @activity, method: :delete, data: { confirm: 'Are you sure?' }, class: "button is-danger" %>
+</div>

@@ -1,0 +1,55 @@
+<%= form_with(model: participant, local: true) do |form| %>
+  <%= render "shared/error_messages", object: form.object %>
+
+  <div class="field">
+    <%= form.label :first_name, class: 'label' %>
+    <div class="control">
+      <%= form.text_field :first_name, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :last_name, class: 'label' %>
+    <div class="control">
+      <%= form.text_field :last_name, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :email, class: 'label' %>
+    <div class="control">
+      <%= form.text_field :email, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :class_code, class: 'label' %>
+    <div class="control">
+      <%= form.text_field :class_code, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :section, class: 'label' %>
+    <div class="control">
+      <%= form.text_field :section, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :passcode, class: 'label' %>
+    <div class="control">
+      <%= form.text_field :passcode, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field buttons">
+    <%= form.submit class: 'button is-link' %>
+    <% if participant.persisted? %>
+      <%= link_to 'Delete', participant, method: :delete, class: "button is-danger", data: { confirm: 'Are you sure?' } %>
+      <%= link_to "Cancel", participant, class: "button" %>
+    <% else %>
+      <%= link_to "Cancel", participants_path, class: "button" %>
+    <% end %>
+  </div>
+<% end %>

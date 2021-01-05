@@ -1,0 +1,25 @@
+<nav class="navbar is-info" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <%= link_to logo_path, class: "navbar-item has-text-weight-bold" do %>
+      Process Reading Study
+    <% end %>
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div class="navbar-menu" id="navMenu">
+    <div class="navbar-start">
+    </div>
+    <div class="navbar-end">
+      <% unless Rails.env == "production" %>
+        <div class="navbar-item">
+          <span class="tag is-danger"><%= Rails.env %></span>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,42 @@
+<h1 class="title">Activities</h1>
+
+<div class="table-container">
+  <table class="table is-fullwidth">
+    <thead>
+      <tr>
+        <th>Participant</th>
+        <th>Text</th>
+        <th>Order</th>
+        <th>Action string</th>
+        <th>Action type</th>
+        <th>Time since page load</th>
+        <th>Time since tooltip open</th>
+        <th>Comment</th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @activities.each do |activity| -%>
+        <tr>
+          <td><%= activity.participant_id %></td>
+          <td><%= activity.text_id %></td>
+          <td><%= activity.order %></td>
+          <td><%= activity.action_string %></td>
+          <td><%= activity.action_type %></td>
+          <td><%= activity.time_since_page_load %></td>
+          <td><%= activity.time_since_tooltip_open %></td>
+          <td><%= activity.comment %></td>
+          <td>
+            <div class="buttons">
+              <%= link_to 'View', activity, class: "button is-small" %>
+              <%= link_to 'Edit', edit_activity_path(activity), class: "button is-small" %>
+              <%= link_to 'Destroy', activity, method: :delete, data: { confirm: 'Are you sure?' },
+                class: "button is-small is-danger" %>
+            </div>
+          </td>
+        </tr>
+      <% end -%>
+    </tbody>
+  </table>
+</div>

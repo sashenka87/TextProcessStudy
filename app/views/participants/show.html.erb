@@ -1,0 +1,33 @@
+<h1 class="title">Participant</h1>
+
+<p>
+  <strong>First name:</strong>
+  <%= @participant.first_name %>
+</p>
+<p>
+  <strong>Last name:</strong>
+  <%= @participant.last_name %>
+</p>
+<p>
+  <strong>Email:</strong>
+  <%= @participant.email %>
+</p>
+<p>
+  <strong>Class code:</strong>
+  <%= @participant.class_code %>
+</p>
+<p>
+  <strong>Section:</strong>
+  <%= @participant.section %>
+</p>
+<p>
+  <strong>Passcode:</strong>
+  <%= @participant.passcode %>
+</p>
+
+<br>
+<div class="buttons">
+  <%= link_to 'Back', participants_path, class: "button" %>
+  <%= link_to 'Edit', edit_participant_path(@participant), class: "button" %>
+  <%= link_to 'Destroy', @participant, method: :delete, data: { confirm: 'Are you sure?' }, class: "button is-danger" %>
+</div>

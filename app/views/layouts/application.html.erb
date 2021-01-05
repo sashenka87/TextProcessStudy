@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title><%= title %></title>
+    <%= render "layouts/social_headers" %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_packs_with_chunks_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_packs_with_chunks_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= render "layouts/analytics" %>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <%= render "layouts/header" %>
+    <%= render "layouts/flash_messages" %>
+    <!-- Main body -->
+    <section class="section main-body" vue-enabled>
+      <div class="container">
+        <%= yield %>
+      </div>
+    </section>
+  </body>
+</html>

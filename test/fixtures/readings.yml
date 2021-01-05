@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  participant: one
+  text_id: 1
+  comment: MyString
+  start_time: <%= Time.now %>
+
+two:
+  participant: one
+  text_id: 1
+  comment: MyString
+  start_time: <%= Time.now - 5.days %>

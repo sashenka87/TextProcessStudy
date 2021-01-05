@@ -1,0 +1,38 @@
+<div class="columns is-mobile">
+  <div class="column is-8 <%= @highlights_enabled ? 'is-offset-1' : 'is-offset-2' %>">
+
+    <div class="message">
+      <div class="message-body">
+        Please read these texts to identify important information and to answer comprehension questions after reading.
+      </div>
+    </div>
+
+    <div class="box content">
+      <reading-content :text-id="<%= @current_text %>" :highlights="<%= @highlights_enabled %>">
+        <%= render "readings/texts/#{@current_text}" %>
+      </reading-content>
+    </div>
+
+    <%= form_for @reading, url: reading_path do |form| %>
+      <%= form.hidden_field :text_id %>
+      <%= form.hidden_field :start_time %>
+
+      <div class="field">
+        <div class="control">
+          <%= form.text_area :comment, class: "textarea", placeholder: "Overall comments:" %>
+        </div>
+      </div>
+
+      <div class="field">
+        <div class="control has-text-right">
+          <% if @almost_done %>
+            <%= form.submit "Finish", class: "button is-success" %>
+          <% else %>
+            <%= form.submit "Next Reading", class: "button is-success" %>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
+
+  </div>
+</div>

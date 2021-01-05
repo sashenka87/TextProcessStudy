@@ -1,0 +1,15 @@
+<h1 class="title"><%= singular_table_name.titleize %></h1>
+
+<% attributes.each do |attribute| -%>
+<p>
+  <strong><%= attribute.human_name %>:</strong>
+  <%%= @<%= singular_table_name %>.<%= attribute.name %> %>
+</p>
+<% end -%>
+
+<br>
+<div class="buttons">
+  <%%= link_to 'Back', <%= plural_table_name %>_path, class: "button" %>
+  <%%= link_to 'Edit', edit_<%= singular_table_name %>_path(@<%= singular_table_name %>), class: "button" %>
+  <%%= link_to 'Destroy', @<%= singular_table_name %>, method: :delete, data: { confirm: 'Are you sure?' }, class: "button is-danger" %>
+</div>

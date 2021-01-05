@@ -1,0 +1,81 @@
+<div class="columns is-centered">
+  <div class="column is-half">
+
+    <h1 class="title">Participant Sign In</h1>
+
+    <%= form_with(model: @participant, local: true) do |form| %>
+      <%= render "shared/error_messages", object: form.object %>
+
+      <div class="columns">
+        <div class="column">
+          <div class="field">
+            <%= form.label :first_name, class: 'label' %>
+            <div class="control">
+              <%= form.text_field :first_name, class: 'input' %>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="field">
+            <%= form.label :last_name, class: 'label' %>
+            <div class="control">
+              <%= form.text_field :last_name, class: 'input' %>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column">
+          <div class="field">
+            <%= form.label :email, class: 'label' %>
+            <div class="control">
+              <%= form.text_field :email, class: 'input' %>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="field">
+            <%= form.label :passcode, class: 'label' %>
+            <div class="control">
+              <%= form.text_field :passcode, class: 'input' %>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column">
+          <div class="field">
+            <%= form.label :class_code, class: 'label' %>
+            <div class="control">
+              <div class="select is-fullwidth">
+                <%= form.select :class_code, Participant.class_codes.map { |v| [v,v] },
+                  class: "is-fullwidth", include_blank: true %>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="field">
+            <%= form.label :section, class: 'label' %>
+            <div class="control">
+              <div class="select is-fullwidth">
+                <%= form.select :section, Participant.section_names.map { |v| [v,v] },
+                  class: "is-fullwidth", include_blank: true %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="field buttons">
+        <%= form.submit class: 'button is-link' %>
+      </div>
+    <% end %>
+
+  </div>
+</div>

@@ -1,0 +1,69 @@
+<%= form_with(model: activity, local: true) do |form| %>
+  <%= render "shared/error_messages", object: form.object %>
+
+  <div class="field">
+    <%= form.label :participant_id, class: 'label' %>
+    <div class="control">
+      <%= form.number_field :participant_id, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :text_id, class: 'label' %>
+    <div class="control">
+      <%= form.number_field :text_id, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :order, class: 'label' %>
+    <div class="control">
+      <%= form.number_field :order, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :action_string, class: 'label' %>
+    <div class="control">
+      <%= form.text_field :action_string, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :action_type, class: 'label' %>
+    <div class="control">
+      <%= form.text_field :action_type, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :time_since_page_load, class: 'label' %>
+    <div class="control">
+      <%= form.number_field :time_since_page_load, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :time_since_tooltip_open, class: 'label' %>
+    <div class="control">
+      <%= form.number_field :time_since_tooltip_open, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :comment, class: 'label' %>
+    <div class="control">
+      <%= form.text_field :comment, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field buttons">
+    <%= form.submit class: 'button is-link' %>
+    <% if activity.persisted? %>
+      <%= link_to 'Delete', activity, method: :delete, class: "button is-danger", data: { confirm: 'Are you sure?' } %>
+      <%= link_to "Cancel", activity, class: "button" %>
+    <% else %>
+      <%= link_to "Cancel", activities_path, class: "button" %>
+    <% end %>
+  </div>
+<% end %>
