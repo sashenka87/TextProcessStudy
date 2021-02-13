@@ -5,8 +5,7 @@
     </h3>
 
     <p>
-      In this study, we are going to ask you to read two psychology texts on transfer and social goals.
-      Please read these texts to identify important information and to be able to answer comprehension questions after reading.
+      In this study, we are going to ask you to read four texts to write a research report on mass incarceration in the United States.
     </p>
 
     <next-pane></next-pane>
