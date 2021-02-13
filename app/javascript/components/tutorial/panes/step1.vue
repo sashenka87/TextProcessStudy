@@ -13,7 +13,7 @@
       You can highlight by selecting any portion text and clicking the green or yellow highlighter.
     </p>
     
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ-iI5x3CTI2uPKpMJqAlapiJd8cJxcF7XmTRId2_hweVlmRqkdngEL1mdR61qUwld53LAgR2_WXQX_/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vSEdl1p4bY-Qf4p_qbuHXwF4YHB1Y_jW0CKVfPQJGqD33pJ_Beke277PDPxox2KDOEPOgstbhZqPiIk/pub?embedded=true"></iframe>
 
     <next-pane></next-pane>
   </div>
