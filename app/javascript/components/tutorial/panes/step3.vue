@@ -1,7 +1,7 @@
 <template>
   <div class="box content">
     <h3 class="is-size-5 has-text-weight-semibold">
-     
+    Please pay attention to <u>important information</u> as you read.
     </h3>
 
     <p>
