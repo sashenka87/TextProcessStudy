@@ -1,7 +1,7 @@
 <template>
   <div class="box content">
     <h3 class="is-size-5 has-text-weight-semibold">
-      Highlighter Tool
+      Highlighter and Comment Tool
     </h3>
 
     <p>
