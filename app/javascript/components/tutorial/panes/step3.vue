@@ -1,7 +1,7 @@
 <template>
   <div class="box content">
     <h3 class="is-size-5 has-text-weight-semibold">
-      Directions Restate
+     
     </h3>
 
     <p>
@@ -9,12 +9,12 @@
     </p>
 
     <p>
-      Please read to be able to answer comprehension questions after reading.
+      Please read each text to write a research report on mass incarceration in the United States. 
     </p>
 
     <p>
-      Be sure to highlight and comment on important information.
-      Click on buttons in text to learn more about important concepts and terms.
+      Please be sure to highlight and comment on <b>important information</b> as you read.
+      You will be able to click on hyperlinks to learn more about the references in each text. 
     </p>
 
     <div class="has-text-right">
