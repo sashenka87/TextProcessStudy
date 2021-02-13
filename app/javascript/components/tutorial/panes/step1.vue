@@ -5,13 +5,12 @@
     </h3>
 
     <p>
-      As you read, you will be able to highlight and make comments about any important information you see.
+      As you read, you will be able to highlight and make comments about any <b>important information</b> you see.
     </p>
 
     <p>
       You will have two highlighter colors available.
-      Please use <b>green</b> to highlight the main idea of each text.
-      Please use <b>yellow</b> to highlight any supporting evidence.
+      You can highlight by selecting any portion text and clicking the green or yellow highlighter.
     </p>
 
     <next-pane></next-pane>
