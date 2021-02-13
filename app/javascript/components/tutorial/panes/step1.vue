@@ -12,7 +12,8 @@
       You will have two highlighter colors available.
       You can highlight by selecting any portion text and clicking the green or yellow highlighter.
        </p>
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3egUfdQSCQb135TSaX00clqHDVFodb9jY2kBuR7ylfpoVYYZS7cuS0PKscLBpaiGTiRNBEa-Pgw0zT4Wmmv6MXrnQJZjCbbm5Lyd-AjDgZlOIpdPaPiVpktITu3WxpNLVOUwcKi1ay7Oj-vwZGKWOFr=w2836-h636-no?authuser=0" width="100">
+       <br>
+<img src="https://lh3.googleusercontent.com/pw/ACtC-3egUfdQSCQb135TSaX00clqHDVFodb9jY2kBuR7ylfpoVYYZS7cuS0PKscLBpaiGTiRNBEa-Pgw0zT4Wmmv6MXrnQJZjCbbm5Lyd-AjDgZlOIpdPaPiVpktITu3WxpNLVOUwcKi1ay7Oj-vwZGKWOFr=w2836-h636-no?authuser=0" width="1000">
  
     <br>
     <next-pane></next-pane>
