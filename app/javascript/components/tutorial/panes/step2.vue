@@ -5,7 +5,7 @@
     </h3>
 
     <p>
-      You will also be able to click on buttons in text to learn more about important concepts and terms.
+      You will also be able to click on hyperlinked-buttons to learn about references in text.
     </p>
 
     <next-pane></next-pane>
