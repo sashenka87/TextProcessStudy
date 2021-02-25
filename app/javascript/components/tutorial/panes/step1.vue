@@ -1,7 +1,7 @@
 <template>
   <div class="box content">
     <h3 class="is-size-5 has-text-weight-semibold">
-      Highlighter and Comment on Any Information that Helps you Evaluate Texts
+      Highlight and Comment on Any Information that Helps you Evaluate Texts
     </h3>
 
     <p>
