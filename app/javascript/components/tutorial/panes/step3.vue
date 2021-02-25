@@ -1,20 +1,15 @@
 <template>
   <div class="box content">
     <h3 class="is-size-5 has-text-weight-semibold">
-    Please pay attention to <u>important information</u> as you read.
+    Ready?
     </h3>
 
-    <p>
-      Ready? On the next page you’ll see the first text.
+     <p>
+      On the next page you'll see the <b>first<b/> of <b>four</b> texts you will be asked to read to write a research report on mass incarceration in the United States. 
     </p>
 
-    <p>
-      Please read each text to write a research report on mass incarceration in the United States. 
-    </p>
-
-    <p>
-      Please be sure to highlight and comment on <b>important information</b> as you read.
-      You will be able to click on hyperlinks to learn more about the references in each text. 
+        <p>
+      Please be sure to highlight and comment on any informtion that is <confusing> or <b>difficult for you to understand</b>, as you read.
     </p>
 
     <div class="has-text-right">
