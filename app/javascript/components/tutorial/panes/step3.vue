@@ -5,12 +5,12 @@
     </h3>
 
     <p>
-      On the next page you'll see the <b>first<b/> of <b>four</b> texts you will be asked to read to write a  research report on mass incarceration in the United States. 
+      On the next page you'll see the <b>first<b/> of <b>four</b> texts you will be asked to read to write a research report on mass incarceration in the United States. 
     </p>
 
 
     <p>
-      Please be sure to highlight and comment on any <b>important information</b> as you read.
+      Please be sure to highlight and comment on any <b>important information,</b> as you read.
     </p>
 
     <div class="has-text-right">
