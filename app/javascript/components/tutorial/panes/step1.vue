@@ -20,6 +20,7 @@
  
     <br>
     <br>
+    <br>
     <next-pane></next-pane>
   </div>
 </template>
