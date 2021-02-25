@@ -10,7 +10,7 @@
     
     <img src="https://lh3.googleusercontent.com/pw/ACtC-3eQ5r3xoDrFfuhKPVdb-iDRFLPntDTvmR1EUNiGpUUK5DgJZU9APgGX5_p5Gr781qKZjIaf2qlG-ESgSvdId6o1w6Dd1MfsMNPwst2GfFw5br7pk8ATFCGSB0w8pP27-WEsngyQEOoOc2UcySkdvfyR=w2872-h660-no?authuser=0" width="1000">
 
-
+<br>
     <next-pane></next-pane>
   </div>
 </template>
