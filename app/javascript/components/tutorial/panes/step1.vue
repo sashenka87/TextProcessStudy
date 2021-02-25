@@ -1,7 +1,7 @@
 <template>
   <div class="box content">
     <h3 class="is-size-5 has-text-weight-semibold">
-      Highlight and Comment on Any Information that Helps you Evaluate Text Trustworthiness
+      Highlight and comment on any information that helps you to <u>evaluate text trustworthiness</u>
     </h3>
 
     <p>
