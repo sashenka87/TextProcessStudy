@@ -1,7 +1,7 @@
 <template>
   <div class="box content">
     <h3 class="is-size-5 has-text-weight-semibold">
-      Highlight and Comment on any Information that is Confusing or Difficult for you to Understand
+      Highlight and comment on any information that is <u>confusing or difficult</u> for you to understand
     </h3>
 
     <p>
