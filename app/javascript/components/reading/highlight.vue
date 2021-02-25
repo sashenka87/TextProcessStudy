@@ -12,7 +12,7 @@
       <div v-else>
         <textarea rows="6" width="200px"
           id="highlight-comment" class="textarea mb-1" ref='text'
-          placeholder="Please add your comment here"
+          placeholder="Please explain your highlight."
           v-model="comment" />
 
         <div class="button-row">
