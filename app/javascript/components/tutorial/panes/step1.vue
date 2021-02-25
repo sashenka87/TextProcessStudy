@@ -5,7 +5,7 @@
     </h3>
 
     <p>
-      As you read, you will be able to highlight and make comments about any <b>important information</b> you see.
+      As you read, you will be able to highlight and make comments about any <b>important information</b> in texts.
     </p>
 
     <p>
