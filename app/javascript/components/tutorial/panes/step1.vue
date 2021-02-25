@@ -1,7 +1,7 @@
 <template>
   <div class="box content">
     <h3 class="is-size-5 has-text-weight-semibold">
-      Highlight and comment on any <u>relations or connections across texts</u>
+      Highlight and comment on any information that is <u>related or connected across texts</u>
     </h3>
 
     <p>
