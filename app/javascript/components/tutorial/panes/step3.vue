@@ -9,7 +9,7 @@
     </p>
 
         <p>
-      Please be sure to highlight and comment on any informtion that is <confusing> or <b>difficult for you to understand</b>, as you read.
+      Please be sure to highlight and comment on any informtion that is <b>confusing</b> or <b>difficult for you to understand</b>, as you read.
     </p>
 
     <div class="has-text-right">
