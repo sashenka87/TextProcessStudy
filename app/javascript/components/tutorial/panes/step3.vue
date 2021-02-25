@@ -5,7 +5,7 @@
     </h3>
 
     <p>
-      On the next page you'll see the <b>first<b/> of <b>four</b> texts you will be asked to read to write a research report on mass incarceration in the United States. 
+      On the next page you'll see the <b>first</b> of <b>four</b> texts you will be asked to read to write a research report on mass incarceration in the United States. 
     </p>
 
     <p>
