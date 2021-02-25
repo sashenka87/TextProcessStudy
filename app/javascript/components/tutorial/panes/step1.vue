@@ -1,7 +1,7 @@
 <template>
   <div class="box content">
     <h3 class="is-size-5 has-text-weight-semibold">
-      Highlight and Comment on Important Information
+      Highlight and comment on any <u>important information</u> you read
     </h3>
 
     <p>
