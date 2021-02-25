@@ -7,10 +7,10 @@
     <p>
       You will also be able to click on <b>hyperlinks</b> to learn about references in text.
     </p>
-    
-    <img src="https://lh3.googleusercontent.com/pw/ACtC-3eTrZEwjENuq4F7Zr0vPPQAJGnaH7o1uzm_C6WpLjcY4w4nomJw273xgNsElNysXQ5fFR1GVL9Ju3Jeaf6lxKdf2xWgSuJCym5bbf0nIuHwew0n9kZvZlyg3_K58RND4loxun-Z_fKnAgUnz5UeV4rQ=w2876-h706-no" width="1000">
 
+    <img src="https://lh3.googleusercontent.com/pw/ACtC-3eQ5r3xoDrFfuhKPVdb-iDRFLPntDTvmR1EUNiGpUUK5DgJZU9APgGX5_p5Gr781qKZjIaf2qlG-ESgSvdId6o1w6Dd1MfsMNPwst2GfFw5br7pk8ATFCGSB0w8pP27-WEsngyQEOoOc2UcySkdvfyR=w2872-h660-no?authuser=0" width="1000">
 
+<br>
     <next-pane></next-pane>
   </div>
 </template>
