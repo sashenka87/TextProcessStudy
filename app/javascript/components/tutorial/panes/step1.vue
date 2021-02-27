@@ -12,7 +12,7 @@
       <img src="https://i.postimg.cc/YSQCHSL0/Screen-Shot-2021-02-27-at-3-34-22-PM.png" width="30">
       You can highlight by selecting any portion of text and <br>
    
-    <img src="https://i.postimg.cc/y6LYBtxm/Screen-Shot-2021-02-27-at-3-34-32-PM.png" width="30"> clicking the yellow or green highlight button. <br>
+    <img src="https://i.postimg.cc/y6LYBtxm/Screen-Shot-2021-02-27-at-3-34-32-PM.png" width="30"> Clicking the yellow or green highlight buttons. <br>
      <img src="https://i.postimg.cc/YqVrLF1j/Screen-Shot-2021-02-27-at-3-34-45-PM.png" width="30"> You can then add <b>comments</b> to explain any important information you highlighted.
        </p>
        <br>
