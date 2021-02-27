@@ -5,7 +5,7 @@
     </h3>
 
     <p>
-     <img src="https://i.postimg.cc/y6LYBtxm/Screen-Shot-2021-02-27-at-3-34-32-PM.png" width="30"> You will also be able to click on <b>hyperlinks</b> to learn about references in text.
+     <img src="https://i.postimg.cc/YSQCHSL0/Screen-Shot-2021-02-27-at-3-34-22-PM.png" width="30"> You will also be able to click on <b>hyperlinks</b> to learn about references in text.
     </p>
     
     <img src="https://i.postimg.cc/NM3WV1c5/Figure-2-Screenshot.png" width="1000">
