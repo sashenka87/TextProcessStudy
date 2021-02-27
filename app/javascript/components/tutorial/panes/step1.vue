@@ -5,15 +5,18 @@
     </h3>
 
     <p>
-      As you read, please highlight any <b>important information</b> in texts.
+      As you read, please highlight and comment on any <b>important information</b> in texts.
     </p>
 
     <p>
-      You will have two highlighter colors available.
-      You can highlight by selecting any portion of text and clicking the green or yellow highlighters.
+      <img src="https://i.postimg.cc/YSQCHSL0/Screen-Shot-2021-02-27-at-3-34-22-PM.png" width="50">
+      You can highlight by selecting any portion of text and then <br>
+      
+    <img src="<img src="https://i.postimg.cc/YSQCHSL0/Screen-Shot-2021-02-27-at-3-34-22-PM.png" width="50">" width="50"> clicking one the yellow or green highlight buttons.
+
        </p>
           <p>
-      You will also be able to add <b>comments</b> to explain any important information you highlighted.
+     <img src="https://i.postimg.cc/YqVrLF1j/Screen-Shot-2021-02-27-at-3-34-45-PM.png" width="50"> You will also be able to add <b>comments</b> to explain any important information you highlighted.
        </p>
        <br>
 <img src="https://i.postimg.cc/vmNRrJ27/Figure-1-Screenshot.png" width="1000">
