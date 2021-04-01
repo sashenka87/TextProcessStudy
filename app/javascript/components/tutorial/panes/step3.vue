@@ -10,7 +10,7 @@
 
 
     <p>
-      Please be sure to highlight and comment on any <b>important information,</b> as you read.
+      Please be sure to <b>highlight</b> and <b>comment</b> on information as you read.  You can click on <b>hyperlinks</b> of keywords to read their definitions.
     </p>
 
     <div class="has-text-right">
