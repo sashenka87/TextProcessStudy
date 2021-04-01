@@ -5,7 +5,7 @@
     </h3>
 
     <p>
-      On the next page you'll see the <b>first</b> of <b>two</b> textbook excerpts you will be asked to read.  You will be asked to answer comprehension questions after reading. 
+      On the next page you'll see the <b>first</b> of <b>two</b> textbook excerpts.  You will be asked to answer comprehension questions after reading. 
     </p>
 
 
