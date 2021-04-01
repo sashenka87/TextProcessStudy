@@ -5,7 +5,7 @@
     </h3>
 
     <p>
-      In this study, we are going to ask you to read four texts to write a research report on mass incarceration in the United States.
+      In this study, we are going to ask you to read two textbook excerpts about two topics in developmental psychology.  You will be asked to answer comprehension questions after reading.
     </p>
 
     <next-pane></next-pane>
