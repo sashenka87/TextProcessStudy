@@ -5,7 +5,7 @@
     </h3>
 
 <p>
-    The other textbook excerpts will be about <b>peer social statuses</b>.
+    The other textbook excerpt will be about <b>peer social statuses</b>.
 </p>
     <next-pane></next-pane>
   </div>
