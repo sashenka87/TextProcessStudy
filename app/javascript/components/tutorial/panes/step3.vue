@@ -8,11 +8,6 @@
       On the next page you'll see the <b>first</b> of <b>two</b> textbook excerpts.  You will be asked to answer comprehension questions after reading. 
     </p>
 
-
-    <p>
-      Please be sure to <b>highlight</b> and <b>comment</b> on what you read.  You can click on <b>keywords</b> to read their definitions.
-    </p>
-
     <div class="has-text-right">
       <a href="/reading" class="button is-success">Take me to my reading &rarr;</a>
     </div>
