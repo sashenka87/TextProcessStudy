@@ -10,7 +10,7 @@
 
 
     <p>
-      Please be sure to <b>highlight</b> and <b>comment</b> on what you read.  You can click on <b>keywords</b> to read their definitions.
+      Please be sure to click on <b>keywords</b> to read their definitions.
     </p>
 
     <div class="has-text-right">
