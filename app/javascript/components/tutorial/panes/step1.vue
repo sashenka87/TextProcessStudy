@@ -5,7 +5,7 @@
     </h3>
 
     <p>
-    One of the textsbook excerpts will be about <b>parenting styles</b>.
+    One of the textbook excerpts will be about <b>parenting styles</b>.
     </p>
 
     <next-pane></next-pane>
