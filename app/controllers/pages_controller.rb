@@ -4,7 +4,7 @@ class PagesController < ApplicationController
   end
 
   def bye
-    redirect_to "https://pennstate.qualtrics.com/jfe/form/SV_0i9Cb0lOCCuEBoN"
+    redirect_to "https://pennstate.qualtrics.com/jfe/form/SV_6sAw36pKFPeCTDE"
     return
     # render layout: "blank"
   end
