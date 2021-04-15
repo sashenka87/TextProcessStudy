@@ -3,7 +3,7 @@
 
     <div class="message">
       <div class="message-body">
-        Please read this text.  You will be asked to answer comprehension questions after reading. Please <b>highlight</b> and <b>comment</b> on information during reading.  Click on <b>keywords</b> to read their definitions.
+        Please read this text.  You will be asked to answer comprehension questions after reading.
       </div>
     </div>
 
@@ -16,12 +16,6 @@
     <%= form_for @reading, url: reading_path do |form| %>
       <%= form.hidden_field :text_id %>
       <%= form.hidden_field :start_time %>
-
-      <div class="field">
-        <div class="control">
-          <%= form.text_area :comment, class: "textarea", placeholder: "General notes on this text:" %>
-        </div>
-      </div>
 
       <div class="field">
         <div class="control has-text-right">
