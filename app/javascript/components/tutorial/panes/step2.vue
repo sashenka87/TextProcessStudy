@@ -4,7 +4,7 @@
       Comment on information during reading
     </h3>
 
-  <img src="https://i.postimg.cc/YqVrLF1j/Screen-Shot-2021-02-27-at-3-34-45-PM.png" width="30"> You will also be able to add <b>comments</b> to explain any information you highlighted.
+  <img src="https://i.postimg.cc/YqVrLF1j/Screen-Shot-2021-02-27-at-3-34-45-PM.png" width="30"> You will also be able to add <b>comments</b> to explain any information you highlighted.  Additionally, you will be able to take notes at the bottom of each text.
        </p>
     
 
